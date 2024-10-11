@@ -1,0 +1,44 @@
+.Comment__Wrapper {
+ background-color: #EAEAEA;
+ padding: 10px;
+ margin: 0 auto;
+}
+
+.Comment__Container {
+ max-width: 400px;
+ margin: 0 auto;
+ border: solid #000;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+.Comment__Info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Comment__userAvatar {
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.Comment__timeMarkBlock {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    align-items: center;
+    color: #000;
+}
+
+.Comment__timeMarkBlock svg {
+    width: 20px;
+    height: 20px;
+}
+
+.Comment__text {
+    margin-left: 83px;
+    padding: 5px;
+}
