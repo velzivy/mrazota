@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daa71b28.css",
+    "main.js": "/static/js/main.b415d30f.js",
+    "static/media/Nunito.ttf": "/static/media/Nunito.4ee7cd566100b8c9adef.ttf",
+    "static/media/UserAvatar.jpg": "/static/media/UserAvatar.c1fc6948dc3b5a11ac24.jpg",
+    "static/media/nahui.mp3": "/static/media/nahui.b2d7a89f563cb8344c74.mp3",
+    "static/media/Arrow.jpg": "/static/media/Arrow.182fba96877be4dc2868.jpg",
+    "index.html": "/index.html",
+    "main.daa71b28.css.map": "/static/css/main.daa71b28.css.map",
+    "main.b415d30f.js.map": "/static/js/main.b415d30f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.daa71b28.css",
+    "static/js/main.b415d30f.js"
+  ]
+}

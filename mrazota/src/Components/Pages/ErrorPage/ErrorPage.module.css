@@ -1,0 +1,16 @@
+.ErrorPage__wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ErrorPage__wrapper img {
+    height: 100px;
+    width: 300px;
+    transform: rotate(90deg);
+    margin-top: 100px;
+}
+
+.ErrorPage__wrapper div {
+    margin-top: 150px;
+}
+

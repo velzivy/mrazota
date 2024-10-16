@@ -6,8 +6,9 @@ import Comment from '../../Comment/Comment'
 import getComments from '../../../Axios/getComments'
 import CreateComments from '../../../Axios/CreateComments';
 
+import handleChange from '../../../Utils/handleChange.js'
+
 function Main() {
-    console.log(process.env.AXIOS_URL)
     const [ CommentsData, setCommentsData ]  = useState(null);
     const [ name, setName ]  = useState('');
     const [ text, setText ]  = useState('');
@@ -23,10 +24,6 @@ function Main() {
         setText('')
         e.preventDefault() 
     }
-
-    const handleChange = (setState) => (event) => {
-        setState(event.target.value);
-      };
 
     useEffect(() => {
         getData();
